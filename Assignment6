@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colors in HTML</title>
+</head>
+<body>
+
+  <!-- Color using name -->
+  <div style="height:200px; background-color: orange;"></div>
+
+  <!-- Color using Hex Code -->
+  <div style="height:200px; background-color: #d45079;"></div>
+
+  <!-- Color using RGB -->
+  <div style="height:200px; background-color: rgb(50, 62, 221);"></div>
+
+  <!-- Color using HSL -->
+  <div style="height:200px; background-color: hsl(204.2, 64.7%, 46.7%);"></div>
+
+</body>
+</html>
