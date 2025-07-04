@@ -1,0 +1,151 @@
+Assignment1 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Fest Registration</title>
+</head>
+<body>
+
+  <h1>🚀 Tech Fest Registration Form</h1>
+
+  <form action="/submit" method="POST">
+
+    <div>
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" required>
+    </div><br>
+
+    <div>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" required>
+    </div><br>
+
+    <div>
+      <label for="college">College:</label><br>
+      <input type="text" id="college">
+    </div><br>
+
+    <div>
+      <label for="branch">Branch:</label><br>
+      <select id="branch">
+        <option value="">--Select--</option>
+        <option>Computer Science</option>
+        <option>Electronics</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+      </select>
+    </div><br>
+
+    <div>
+      <p>Year:</p>
+      <input type="radio" name="year" id="first" value="First Year"><label for="first">First Year</label><br>
+      <input type="radio" name="year" id="second" value="Second Year"><label for="second">Second Year</label><br>
+      <input type="radio" name="year" id="third" value="Third Year"><label for="third">Third Year</label><br>
+      <input type="radio" name="year" id="fourth" value="Fourth Year"><label for="fourth">Fourth Year</label>
+    </div><br>
+
+    <div>
+      <p>Events:</p>
+      <input type="checkbox" id="coding" value="Coding"><label for="coding">Coding Challenge</label><br>
+      <input type="checkbox" id="robotics" value="Robotics"><label for="robotics">Robotics</label><br>
+      <input type="checkbox" id="quiz" value="Quiz"><label for="quiz">Tech Quiz</label>
+    </div><br>
+
+    <div>
+      <label for="comments">Any comments or suggestions?</label><br>
+      <textarea id="comments" rows="4" cols="40"></textarea>
+    </div><br>
+
+    <button type="submit">Register</button>
+
+  </form>
+
+</body>
+</html>
+Assignment2
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🎵 Music Album Preview</title>
+</head>
+<body>
+
+  <h1>🎶 Album: Echoes of Time</h1>
+
+  <h3>Track Preview</h3>
+  <audio controls>
+    <source src="track1.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h3>Track List</h3>
+  <ul>
+    <li>1. Echoes of Dawn</li>
+    <li>2. Moonlit Walk</li>
+    <li>3. Silent Rain</li>
+  </ul>
+
+  <h3>Lyrics Sample - Silent Rain</h3>
+  <p>
+    In the silence of the night,<br>
+    Drops fall down, soft and light.<br>
+    Whispers echo through the pain,<br>
+    In the rhythm of the silent rain.
+  </p>
+
+  <h3>Album Description</h3>
+  <p>This album is a soulful journey through moments of quiet, reflection, and inner peace. Let the music guide your heart.</p>
+
+</body>
+</html>
+Assignment3
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🎬 The Last Horizon - Movie Promo</title>
+</head>
+<body>
+
+  <header style="text-align:center; background-color:#f0f0f0; padding:20px;">
+    <h1>🎥 The Last Horizon</h1>
+    <p>A Sci-Fi Short Film | Releasing 2025</p>
+  </header>
+
+  <main style="padding:20px;">
+    <section>
+      <h2>🎞️ Watch the Trailer</h2>
+      <video width="60%" controls>
+        <source src="trailer.mp4" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+    </section>
+
+    <section>
+      <h2>📖 Storyline</h2>
+      <p>
+        In a future where Earth is on the brink of collapse, a lone astronaut discovers a hidden planet that could save humanity.
+        But at what cost? "The Last Horizon" explores sacrifice, survival, and second chances.
+      </p>
+    </section>
+
+    <section>
+      <h2>🌟 Reviews</h2>
+      <article>
+        <h3>FilmGeek Review</h3>
+        <p>"Visually stunning with a powerful message — a must-watch for sci-fi lovers."</p>
+      </article>
+
+      <article>
+        <h3>Critic's Pick</h3>
+        <p>"Tightly packed drama with emotional depth and breathtaking shots of space."</p>
+      </article>
+    </section>
+  </main>
+
+  <footer style="text-align: center; margin-top: 40px; background-color: #f0f0f0; padding: 10px;">
+    <p>Follow us on <a href="#">Instagram</a> | <a href="#">YouTube</a></p>
+    <p>&copy; 2025 Horizon Studios</p>
+  </footer>
+
+</body>
+</html>
